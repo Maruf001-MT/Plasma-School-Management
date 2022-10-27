@@ -1,0 +1,23 @@
+Changes:
+application: views>backend>superadmin, models> crud_model, user_model
+assets: csv_file, install.sql
+uploads: system> logo
+
+
+Tips:
+For add first gallery- paste "frontend_gallery/create" after superadmin, a blank first gallery will be create
+Need develop:
+✔login page: design should be fixed as previous(follow ss)
+#student fee manager/invoice: fix as previous in single invoice design
+✔csv file admission: need fix in user model with csv file
+#fix input problems in select section and select subject on create syllabus
+# fix excel issues-
+1) change lebel of "parnet ID" to "Guardian ID"
+2) fix the format on invoice number row. (it isn't shows "0" before the number)
+3) add roll number row
+
+#paste same design in admission, fee management in admin profile
+
+#remove bulk admission from everywhere***********
+
+#create guardian, accountant, librarian- email to "email and phone number"

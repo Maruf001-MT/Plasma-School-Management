@@ -1,0 +1,78 @@
+Any educational institute can use Plasma ERP. Like school, college, university, and so on. You can also monitor and control the branch school management.
+Plasma is beneficial for:
+Authority, Admin, Teacher, Student,Guardian, Accountant, Librarian
+			
+
+#What is does?
+Enhance the ability of productivity
+Empowers school activities
+reduce the pressure of managing data
+organize regular activity
+centralize data in one device
+
+
+#Academic activities
+The academic activities features help to operate classes and other education related activities which contains:
+
+attendance
+class routine
+subject
+syllabus
+class
+classroom
+department
+event calender
+
+#Attendance
+superadmin, admin and teacher can take student's attendance to track academic progress. students and parents can overview attendance from their panel
+
+#class routine
+Class routine helps to complete regular academic activities. The superadmin and admin create the class routine for different classes. Students and parents can watch class routines.
+
+#Subject
+Superadmin and admin can add different subjects for different classes. Students, teachers, and parents have permission to overview subjects.
+
+#Syllabus
+Superadmin, admin, and teacher have permission to create the syllabus for the students, and only parents and students have permission to view the syllabus.
+
+#class
+Superadmin and admin can create a class and sections and also can edit, and delete if they need.
+
+#Classroom
+Admin and superadmin can add, edit and delete classrooms.
+
+#Department
+Every educational institute has different departments to functions academic progress. In Plasma, superadmin and admin have authority to add, edit, and erase various departments.
+
+#Event calender
+Event calender helps to make track of an academic sessions. Everyone can see every event and detail from here. Superadmin and admin can add, edit, delete an event on the academic calender.
+
+#Exam Management
+The examination is a process where students can show their knowledge or ability or obtain the qualification. In Plasma examination has four major contents.
+Exam
+Grade
+Marks
+Promotion
+
+#Exam
+superadmin or admin can manage the exam panel of school. You can add, update, or remove exams in this panel, and teachers can see the exam details.
+
+#Maks
+In Plasma, the superadmin, admins, or teachers can provide marks in the exam and add comments according to the marks.
+
+#Grade
+Superadmin or admin can add, edit, delete a grade. Students and parents can overview the grade form their panel.
+
+#Promotion
+In this panel, admin can promote students from one session to another session
+
+# Fees Management
+Superadmin can manage all kinds of financial activities from this panel. In Plasma, you can manage fees in two ways_
+student fees/income management
+Expense managing
+
+#Student Fees
+Admin can create academic fees and income, filter the student fees manager and export the reports. Student fees can be created in two ways, Massive invoice and Single invoice. Parent and student can pay students fees from their panel and print the invoice for paid transaction.
+
+#Expense managing
+superadmin or admin can manage school expenses and also can select  & filter the expense according to the category.
