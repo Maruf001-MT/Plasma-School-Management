@@ -33,13 +33,13 @@
                     </div>
                     <!-- title-->
                     <h4 class="mt-0"><?php echo get_phrase('sign_in'); ?></h4>
-                    <p class="text-muted mb-4"><?php echo get_phrase('enter_your_phone_number_and_password_to_access_account'); ?>.</p>
+                    <p class="text-muted mb-4"><?php echo get_phrase('enter_your_phone_number_/_email_and_password_to_access_account'); ?>.</p>
 
                     <!-- form -->
                     <form action="<?php echo site_url('login/validate_login'); ?>" method="post" id="loginForm">
                         <div class="form-group mb-3">
-                            <label for="emailaddress"><?php echo get_phrase('Phone_number'); ?></label>
-                            <input class="form-control" type="text" name="email" id="emailaddress" required="" placeholder="Phone number or Email address">
+                            <label for="emailaddress"><?php echo get_phrase('Phone_number_or_email_address'); ?></label>
+                            <input class="form-control" type="text" name="email" id="emailaddress" required="" placeholder="Enter Phone number or Email">
                         </div>
                         <div class="form-group mb-3">
                             <!-- <a href="javascript: void(0);" class="text-muted float-end" onclick="forgotPass();"><small><?php echo get_phrase('forgot_your_password'); ?>?</small></a> -->

@@ -7,9 +7,9 @@
     </div>
 
     <div class="form-group mb-1">
-      <label for="email"><?php echo get_phrase('email'); ?></label>
-      <input type="email" class="form-control" id="email" name = "email" required>
-      <small id="" class="form-text text-muted"><?php echo get_phrase('provide_email'); ?></small>
+      <label for="email"><?php echo get_phrase('phone_number_or_email'); ?></label>
+      <input type="text" class="form-control" id="email" name = "email" required>
+      <small id="" class="form-text text-muted"><?php echo get_phrase('provide_phone_number_or_email'); ?></small>
     </div>
 
     <div class="form-group mb-1">

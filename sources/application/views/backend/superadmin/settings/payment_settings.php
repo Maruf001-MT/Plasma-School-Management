@@ -49,6 +49,9 @@
     </div> <!-- end card -->
   </div>
 
+  <!---------------------- paypal payment settings--------------------- -->
+
+<!-- 
   <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
     <div class="card">
       <div class="card-body">
@@ -111,10 +114,13 @@
         </div>
       </form>
 
-    </div> <!-- end card body-->
-  </div> <!-- end card -->
+    </div> 
   </div>
+  </div> -->
 
+
+  <!---------------------- stripe payment settings--------------------- -->
+<!-- 
   <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
     <div class="card">
       <div class="card-body">
@@ -190,9 +196,9 @@
           </div>
         </div>
       </form>
-    </div> <!-- end card body-->
-  </div> <!-- end card -->
+    </div>
   </div>
+  </div> -->
   <?php if(addon_status('payumoney') == 1): ?>
     <?php include 'payumoney_settings.php'; ?>
   <?php endif; ?>

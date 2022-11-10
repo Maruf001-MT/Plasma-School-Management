@@ -300,12 +300,12 @@ class User_model extends CI_Model {
 
 			$response = array(
 				'status' => true,
-				'notification' => get_phrase('parent_added_successfully')
+				'notification' => get_phrase('guardian_added_successfully')
 			);
 		}else{
 			$response = array(
 				'status' => false,
-				'notification' => get_phrase('sorry_this_email_has_been_taken')
+				'notification' => get_phrase('sorry_this_phone_number_or_email_has_been_taken')
 			);
 		}
 
@@ -402,7 +402,7 @@ class User_model extends CI_Model {
 		}else{
 			$response = array(
 				'status' => false,
-				'notification' => get_phrase('sorry_this_email_has_been_taken')
+				'notification' => get_phrase('sorry_this_phone_number_or_email_has_been_taken')
 			);
 		}
 
@@ -495,7 +495,7 @@ class User_model extends CI_Model {
 		}else{
 			$response = array(
 				'status' => false,
-				'notification' => get_phrase('sorry_this_email_has_been_taken')
+				'notification' => get_phrase('sorry_this_phone_number_or_email_has_been_taken')
 			);
 		}
 

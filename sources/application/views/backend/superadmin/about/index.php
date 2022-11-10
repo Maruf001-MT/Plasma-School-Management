@@ -29,7 +29,7 @@
               <p>
                 <i class="mdi mdi-square"></i> <?php echo get_phrase('check_update'); ?>
                 <span class="float-end">
-                    <a href="https://codecanyon.net/user/creativeitem/portfolio"
+                    <a href="#"
                       target="_blank" style="color: #343a40;">
                         <i class="mdi mdi-telegram"></i>
                           <?php echo get_phrase('check_update'); ?>
@@ -47,11 +47,12 @@
                 </span>
               </p>
 
-              <p style="margin-top: 8px;">
+              <!-- <p style="margin-top: 8px;">
                 <i class="mdi mdi-square"></i> <?php echo get_phrase('purchase_code'); ?>
                 <span class="float-end"><?php echo get_settings('purchase_code'); ?></span>
-              </p>
-              <p>
+              </p> -->
+
+              <!-- <p>
                 <i class="mdi mdi-square"></i> <?php echo get_phrase('purchase_code_status'); ?>
                 <span class="float-end">
                   <?php if (strtolower($application_details['purchase_code_status']) == 'expired'): ?>
@@ -79,10 +80,11 @@
                 <?php else: ?>
                     <span class="float-end"><span class="badge badge-danger-lighten"><?php echo ucfirst($application_details['customer_name']); ?></span></span>
                 <?php endif; ?>
-              </p>
+              </p> -->
+
               <p style="margin-top: 8px;">
                 <i class="mdi mdi-square"></i> <?php echo get_phrase('get_customer_support'); ?>
-                <span class="float-end"><a href="http://support.creativeitem.com" target="_blank" style="color: #343a40;"> <i class="mdi mdi-telegram"></i> <?php echo get_phrase('customer_support'); ?> </a> </span>
+                <span class="float-end"><a href="#" target="_blank" style="color: #343a40;"> <i class="mdi mdi-telegram"></i> <?php echo get_phrase('customer_support'); ?> </a> </span>
               </p>
             </div>
           </div>

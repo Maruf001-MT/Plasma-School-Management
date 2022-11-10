@@ -3,7 +3,7 @@
     <div class="container-fluid">
 
         <!-- LOGO -->
-         <a href="<?php echo site_url($this->session->userdata('role')); ?>" class="topnav-logo" style = "min-width: unset;">
+         <a href="" class="topnav-logo" style = "min-width: unset;">
             <span class="topnav-logo-lg">
                 <img src="<?php echo $this->settings_model->get_logo_light(); ?>" alt="" height="40">
             </span>
@@ -91,7 +91,7 @@
         </ul>
         <div class="app-search dropdown pt-1 mt-2">
             <h4 style="color: #fff; float: left;" class="d-none d-md-inline-block"> <?php echo get_settings('system_name'); ?></h4>
-            <a href="http://localhost/academy_5.3/home" target="" class="btn btn-outline-light ms-2 d-none d-md-inline-block"><?php echo get_phrase('visit_website'); ?></a>
+            <a href="<?php echo site_url($this->session->userdata('role')); ?>" target="_blank" class="btn btn-outline-light ms-2 d-none d-md-inline-block"><?php echo get_phrase('visit_website'); ?></a>
         </div>
         <a class="button-menu-mobile disable-btn">
             <div class="lines">
@@ -115,3 +115,4 @@ function getLanguageList() {
     });
 }
 </script>
+
